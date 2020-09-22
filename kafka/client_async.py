@@ -161,7 +161,7 @@ class KafkaClient(object):
         'bootstrap_topics_filter': set(),
         'client_id': 'kafka-python-' + __version__,
         'request_timeout_ms': 30000,
-        'wakeup_timeout_ms': 3000,
+        'wakeup_timeout_ms': 20000,
         'connections_max_idle_ms': 9 * 60 * 1000,
         'reconnect_backoff_ms': 50,
         'reconnect_backoff_max_ms': 1000,
